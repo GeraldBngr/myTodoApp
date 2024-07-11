@@ -57,6 +57,8 @@ To start the Todo List Web App locally using Vite:
 
 You can access the app in your browser at http://localhost:5173/.
 
+UI inspiration is from https://www.figma.com/design/HSaW2BaZox9n6is9Z0g1xh/Simple-ToDo-List-Design-(Community)?node-id=1-2&t=iSJBgcf2TIf0u6dp-0
+
 
 
 
