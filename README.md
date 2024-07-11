@@ -1,6 +1,12 @@
 # Todo List Web App
 
 Welcome to the Todo List Web App! This application allows you to manage your tasks with ease.
+![Screenshot_11-7-2024_5040_localhost](https://github.com/GeraldBngr/myTodoApp/assets/145577661/4c4c9a74-81de-484b-bbf3-33e7fea1d797)
+![Screenshot_11-7-2024_5127_localhost](https://github.com/GeraldBngr/myTodoApp/assets/145577661/da9f3873-7c3e-421c-9099-fb1e0971e9f5)
+![Screenshot_11-7-2024_529_localhost](https://github.com/GeraldBngr/myTodoApp/assets/145577661/0e5c27eb-b31a-40c7-ade9-4a2e950db303)
+![Screenshot_11-7-2024_5239_localhost](https://github.com/GeraldBngr/myTodoApp/assets/145577661/f9f48508-484f-4bac-b1c8-d57d4b7bb8e0)
+
+
 
 ## Using the Todo List Web App
 
@@ -31,9 +37,28 @@ Make sure you have the following installed on your machine:
    ```bash
    git clone https://github.com/GeraldBngr/myTodoApp
    cd myTodoApp
-2.Install dependencies using npm:
+2. Create a db.json file in the root of your project with an initial empty array for tasks::
 
    ```bash
-   npm install
+   {"Tasks": []}
+3. Start JSON Server using the db.json file::
+
+
+### Start App
+
+#### Starting the Development Server
+
+To start the Todo List Web App locally using Vite:
+
+            ```bash
+            
+            npm run dev
+   This command will build the app and start a development server.
+
+You can access the app in your browser at http://localhost:5173/.
+
+
+
+
 
 
